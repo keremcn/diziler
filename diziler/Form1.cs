@@ -19,7 +19,7 @@ namespace diziler
                 else tektoplam += i;
             }
 
-            button1.Text = $"çift toplam={cifttoplam}, tek toplam = {tektoplam}, Fark = {Math.Abs(tektoplam-cifttoplam)}";
+            button1.Text = $"Ã§ift toplam={cifttoplam}, tek toplam = {tektoplam}, Fark = {Math.Abs(tektoplam-cifttoplam)}";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -52,7 +52,7 @@ namespace diziler
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int sonuc = 1;
+            long sonuc = 1;
 
             for (int i = 50; i <= 75; i+=5)
             {
@@ -123,7 +123,7 @@ namespace diziler
                 if (item == 7) sayac++;
             }
 
-            button10.Text ="Dizide "+ sayac + " adet 7 vardýr.";
+            button10.Text ="Dizide "+ sayac + " adet 7 vardÃ½r.";
 
         }
 
